@@ -1,0 +1,123 @@
+﻿
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0 5px 0 5px;
+    font-family: Roboto, sans-serif;
+}
+
+.headerbox {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5615805ae4b074e29ffef3fd/1444586365430-30EJCKK4T3KH7K0K65W6/ke17ZwdGBToddI8pDm48kM1NxCLQXpEetdHDKEDD3kB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0lCvyAd1-5UQFnp8aARaJsVYPc2HPznSgT_12YFHArMULRRbk8G33fvlcZ1bovzZpQ/movie-film-reel-1543890.jpeg?format=1500w");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgba(250, 156, 15, 0.95);
+    font-family: Limelight, cursive;
+    font-size: 10rem;
+    letter-spacing: 5px;
+    margin-bottom: 2px;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+h2, h3, h4 {
+    font-family: Limelight, cursive;
+    color: #fa9c10;
+}
+
+    h2::first-letter {
+        font-size: 35px;
+    }
+
+p {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+span {
+    color: #fa9c10;
+    font-weight: 700;
+}
+
+.welcome {
+    margin-top: 10px;
+    padding-right: 5px;
+    border-right: 2px solid #5b5b5b;
+}
+
+.quotes {
+    margin-top: 10px;
+    padding-right: 80px;
+}
+
+    .quotes p {
+        font-size: 20px;
+    }
+
+button {
+    color: #5b5b5b;
+    background-color: #b4b4b4;
+    border: 2px solid;
+    font-size: 1em;
+    padding: 0.25em 0.75em;
+    margin-top: 5px;
+    border-radius: 0.5em;
+    transition: transform 0.25s;
+}
+
+    button:hover {
+        font-size: larger;
+        border-color: #fa9c10;
+        color: #fa9c10;
+        box-shadow: 0 0.5em -0.4em #5b5c5c;
+        transform: translateY(-0.05em);
+    }
+
+form {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fa9c10;
+}
+
+    a:hover {
+        text-decoration-line: underline;
+        color: #fa9c10;
+    }
+
+.custom-control .custom-radio .custom-label::before {
+    background-color: #fa9c10;
+}
+
+.tablecontainer {
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.ourlist {
+    margin-top: 5px;
+}
+
+.imgcontainer img {
+    border-radius: 5%;
+    border: 2px solid #fa9c10;
+    transition: border-radius 0.25s;
+}
+
+    .imgcontainer img:hover {
+        border-radius: 25%;
+        border: 4px solid #fa9c10;
+    }
+
+footer {
+    text-align: left;
+}
